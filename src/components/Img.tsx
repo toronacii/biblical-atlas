@@ -22,19 +22,21 @@ export const Img: React.FC<ImgProps> = ({ rowSizePercent, columnSizePercent, wit
   if (withCoordinates && width && height) {
     const rowSize = (rowSizePercent || 0) * height / 100;
     const columnSize = (columnSizePercent || 0) * width / 100;
-    const [column, row] = coordinate.split('');
+    const [, column, row] = /(\w)(.*)/.exec(coordinate) || [];
     const activeRow = +row;
     const activeColumn = column.charCodeAt(0) - 64;
+    const activeCell = Math.ceil((columns * (activeRow - 1)) + activeColumn);
 
     grid = (
       <Grid width={width} height={height}>
-        {Array(rows).fill(null).map((_, i) => (
-          (i + 1 !== activeRow) && <Row key={i} width={width} height={rowSize} rowNumber={i + 1} />
-        ))}
-        {Array(columns).fill(null).map((_, i) => (
-          (i + 1 !== activeColumn) && <Column key={i} width={columnSize} height={height} columnNumber={i + 1} />
-        ))}
-      </Grid>)
+        <InternalGridContainer width={columnSize * columns} height={rowSize * rows}>
+          {Array(rows * columns).fill(null).map((_, i) => (
+            <Cell key={i}
+              width={columnSize}
+              height={rowSize}
+              isActive={activeCell === i + 1} />))}
+        </InternalGridContainer>
+      </Grid >)
   }
 
 
@@ -53,28 +55,32 @@ const Container = styled.div`
   position: relative;
 `;
 
-const Grid = styled.div<{ width: number, height: number }>(
+const Grid = styled.div<Box>(
   props => ({
     position: 'absolute',
     top: 0,
-    opacity: '.7',
-    // backgroundColor: '#aaa',
+    opacity: '.4',
     width: props.width,
     height: props.height,
     overflow: 'hidden',
     boxSizing: 'border-box'
   }))
 
-const Row = styled(Grid)<{ rowNumber: number }>(
-  ({ rowNumber, height }) => ({
-    top: (rowNumber - 1) * height,
-    backgroundColor: '#000'
+const InternalGridContainer = styled.div<Box>(
+  ({ width, height }) => ({
+    width,
+    height,
+    display: 'flex', 
+    flexWrap: 'wrap'
+  })
+);
+
+const Cell = styled.div<Box & { isActive: boolean }>(
+  ({ width, height, isActive }) => ({
+    width,
+    height,
+    backgroundColor: isActive ? 'transparent' : '#000'
   })
 )
 
-const Column = styled(Grid)<{ columnNumber: number }>(
-  ({ columnNumber, width }) => ({
-    left: (columnNumber - 1) * width,
-    backgroundColor: '#000'
-  })
-)
+declare type Box = {width: number, height: number};
