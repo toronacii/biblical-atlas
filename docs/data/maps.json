@@ -1,0 +1,182 @@
+[
+  {
+    "page": "2",
+    "withCoordinates": false,
+    "filename": "01. 2, 3.jfif"
+  },
+  {
+    "page": "3",
+    "withCoordinates": false,
+    "filename": "01. 2, 3.jfif"
+  },
+  {
+    "page": "5",
+    "withCoordinates": true,
+    "filename": "02. 5.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.5174,
+    "rowSizePercent": 20
+  },
+  {
+    "page": "7",
+    "withCoordinates": true,
+    "filename": "03. 7.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.667,
+    "rowSizePercent": 20
+  },
+  {
+    "page": "7",
+    "withCoordinates": false,
+    "filename": "04. 7.jfif"
+  },
+  {
+    "page": "9",
+    "withCoordinates": true,
+    "filename": "05. 9.jfif",
+    "rows": 12,
+    "columns": 9,
+    "columnSizePercent": 11.175,
+    "rowSizePercent": 8.525
+  },
+  {
+    "page": "11",
+    "withCoordinates": true,
+    "filename": "06. 11.jfif",
+    "rows": 12,
+    "columns": 9,
+    "columnSizePercent": 11.165,
+    "rowSizePercent": 8.51
+  },
+  {
+    "page": "12",
+    "withCoordinates": false,
+    "filename": "07. 12.jfif"
+  },
+  {
+    "page": "13",
+    "withCoordinates": false,
+    "filename": "08. 13.jfif"
+  },
+  {
+    "page": "15",
+    "withCoordinates": true,
+    "filename": "09. 15.jfif",
+    "rows": 12,
+    "columns": 9,
+    "columnSizePercent": 11.165,
+    "rowSizePercent": 8.51
+  },
+  {
+    "page": "17",
+    "withCoordinates": false,
+    "filename": "10. 17.jfif"
+  },
+  {
+    "page": "17",
+    "withCoordinates": true,
+    "filename": "11. 17.jfif",
+    "rows": 12,
+    "columns": 9,
+    "columnSizePercent": 11.166,
+    "rowSizePercent": 8.515
+  },
+  {
+    "page": "18",
+    "withCoordinates": false,
+    "filename": "12. 18.jfif"
+  },
+  {
+    "page": "18",
+    "withCoordinates": true,
+    "filename": "13. 18, 19.jfif",
+    "rows": 13,
+    "columns": 8,
+    "columnSizePercent": 12.5,
+    "rowSizePercent": 7.81
+  },
+  {
+    "page": "19",
+    "withCoordinates": true,
+    "filename": "13. 18, 19.jfif",
+    "rows": 13,
+    "columns": 8,
+    "columnSizePercent": 12.5,
+    "rowSizePercent": 7.815
+  },
+  {
+    "page": "21",
+    "withCoordinates": false,
+    "filename": "14. 21.jfif"
+  },
+  {
+    "page": "23",
+    "withCoordinates": true,
+    "filename": "15. 23.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.49,
+    "rowSizePercent": 20.4
+  },
+  {
+    "page": "24",
+    "withCoordinates": true,
+    "filename": "16. 24.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.53,
+    "rowSizePercent": 20.9
+  },
+  {
+    "page": "26",
+    "withCoordinates": true,
+    "filename": "16. 26.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.53,
+    "rowSizePercent": 21.1
+  },
+  {
+    "page": "27",
+    "withCoordinates": true,
+    "filename": "17. 27.jfif",
+    "rows": 4,
+    "columns": 5,
+    "columnSizePercent": 20.05,
+    "rowSizePercent": 26.9
+  },
+  {
+    "page": "29",
+    "withCoordinates": true,
+    "filename": "18. 29.jfif",
+    "rows": 12,
+    "columns": 9,
+    "columnSizePercent": 11.166,
+    "rowSizePercent": 8.51
+  },
+  {
+    "page": "31",
+    "withCoordinates": false,
+    "filename": "19. 31.jfif"
+  },
+  {
+    "page": "32",
+    "withCoordinates": true,
+    "filename": "20. 32.jfif",
+    "rows": 4,
+    "columns": 8,
+    "columnSizePercent": 12.5,
+    "rowSizePercent": 25
+  },
+  {
+    "page": "33",
+    "withCoordinates": true,
+    "filename": "21. 33.jfif",
+    "rows": 5,
+    "columns": 8,
+    "columnSizePercent": 12.51,
+    "rowSizePercent": 20
+  }
+]
