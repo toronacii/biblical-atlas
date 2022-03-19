@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/biblical-atlas/static/css/main.e6c13ad2.css",
+    "main.js": "/biblical-atlas/static/js/main.3155ba29.js",
+    "static/js/787.22c3ba7d.chunk.js": "/biblical-atlas/static/js/787.22c3ba7d.chunk.js",
+    "index.html": "/biblical-atlas/index.html",
+    "main.e6c13ad2.css.map": "/biblical-atlas/static/css/main.e6c13ad2.css.map",
+    "main.3155ba29.js.map": "/biblical-atlas/static/js/main.3155ba29.js.map",
+    "787.22c3ba7d.chunk.js.map": "/biblical-atlas/static/js/787.22c3ba7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3155ba29.js"
+  ]
+}
